@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 248px ;
+color: #EEEEEE;
+padding: 20px, 80px, 20px, 80px;
+height: 135px;
+
+}
+header{
+    background-color: black;
+}
+body{
+    flex-direction: column;
+}
+.button_menu{
+    color: #EEEEEE;
+    text-decoration: none; 
+}
+.button_menu:hover{
+    transform: scale(1.10);
+    color: #76FF76;
+}
+
+.navegacao{
+    background-color: #DCDCDC;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
