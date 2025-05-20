@@ -9,12 +9,12 @@ body {
 
 header {
     background-color: black;
-    padding: 20px;
+    padding: 0px;
 }
 
-h1.port {
+.port {
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-align: start;
     
 }
@@ -32,11 +32,31 @@ h1.port {
     
 }
 
-.button_menu {
+.navbar {
+    background-color: black; /* só exemplo */
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
     color: #EEEEEE;
     text-decoration: none;
     font-size: 22px;
 }
+
 
 .button_menu:hover {
     transform: scale(1.10);
@@ -77,6 +97,7 @@ img {
     .imagem-perfil {
         width: 100%; /* Ajusta a imagem para 100% da largura */
         height: auto; /* Mantém a proporção da imagem */
+        border-radius: 10px;
     }
 
     .nome {
