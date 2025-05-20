@@ -12,12 +12,6 @@ header {
     padding: 0px;
 }
 
-.port {
-    color: white;
-    font-size: 30px;
-    text-align: start;
-    
-}
 
 .container {
     display: flex;
@@ -29,7 +23,7 @@ header {
     height: auto;
     color: #EEEEEE;
     justify-content: space-between;
-    
+    position:fixed ;
 }
 
 .navbar {
@@ -60,7 +54,7 @@ header {
 
 .button_menu:hover {
     transform: scale(1.10);
-    color: #76FF76;
+    color: #37d0eb;
 }
 
 .navegacao {
@@ -103,3 +97,4 @@ img {
     .nome {
         font-size: 2rem; /* Reduz o tamanho da fonte em telas menores */
     }
+
